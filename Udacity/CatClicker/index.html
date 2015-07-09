@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+
+    <div class="cat1"></div>
+    <img src="cat.jpg" class="cat1"/>
+    <div class="result1"></div>
+
+    <div class="cat2"></div>
+    <img src="cat2.jpg" class="cat2" />
+
+    <div class="result2"></div>
+    
+    
+    <script>
+
+       
+
+        var counter = 0;
+        var counter2 = 0;
+
+
+        $('.cat1').click(function () {
+            counter++;
+            $('.result1').text(counter);
+        });
+
+
+
+        $('.cat2').click(function () {
+            counter2++;
+            $('.result2').text(counter2);
+        });
+    </script>
+
+
+</body>
+</html>
